@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="dice.js" defer></script>
+</head>
+<body>
+    <h1>🎲 Dice Roller</h1>
+    <div class="dice-container">
+        <span class="die" data-status="roll">
+            <i id="die1" class="bi bi-dice-1"></i>
+        </span>
+        <span class="die" data-status="roll">
+            <i id="die2" class="bi bi-dice-1"></i>
+        </span>
+    </div>
+
+    <button id="roll-btn">Roll Dice</button>
+</body>
+<p>
+    <span># of Doubles:</span>
+    <span id="doubles-count"></span>
+</p>
+<p>
+    <span># Rolls since doubles:</span>
+    <span id="roll-count"></span>
+</p>
+
+</html>
